@@ -1,0 +1,31 @@
+{
+  "name": "admin-on-rest-demo",
+  "version": "1.2.0",
+  "private": true,
+  "dependencies": {
+    "admin-on-rest": "~1.2.0",
+    "aor-language-french": "^1.8.0",
+    "aor-rich-text-input": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "material-ui": "~0.17.4",
+    "prop-types": "~15.5.7",
+    "react": "~15.5.4",
+    "react-dom": "~15.5.4",
+    "react-redux": "~5.0.4",
+    "react-router-dom": "~4.1.0",
+    "react-router-redux": "^4.0.8",
+    "react-tap-event-plugin": "~2.0.1",
+    "recompose": "^0.25.0",
+    "redux": "^3.7.2",
+    "redux-form": "~6.6.2",
+    "redux-saga": "^0.15.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://marmelab.com/admin-on-rest-demo/"
+}
